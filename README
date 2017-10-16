@@ -1,0 +1,18 @@
+NAME - program.c
+
+USAGE - 
+$ make
+$ make run
+
+DESCRIPTION - 
+Program which is used to get thread id inside its thread function.
+
+
+Example -
+# make
+gcc -o threadDemo program.c -lpthread
+
+# make run
+./threadDemo
+ThreadProc: Thread id = 140485642749696
+Threads terminated.
